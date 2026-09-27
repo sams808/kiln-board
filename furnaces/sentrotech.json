@@ -3,53 +3,7 @@
   "furnace": "sentrotech",
   "name": "Sentrotech",
   "by": "Sam",
-  "at": 1790525827,
-  "note": "sanity check, will be cleared",
-  "run": {
-    "v": 1,
-    "n": "Sanity check run",
-    "t0": 1790523427,
-    "p": [
-      [
-        0,
-        20
-      ],
-      [
-        176,
-        900
-      ],
-      [
-        221,
-        900
-      ],
-      [
-        221,
-        20
-      ]
-    ],
-    "s": [
-      [
-        0,
-        176,
-        221,
-        900,
-        "heat"
-      ],
-      [
-        221,
-        221,
-        221,
-        20,
-        "quench"
-      ]
-    ],
-    "f": [
-      [
-        100,
-        "Lid closed",
-        "#2a78d6",
-        1
-      ]
-    ]
-  }
+  "at": 1790525865,
+  "note": "",
+  "run": null
 }
