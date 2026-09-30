@@ -3,53 +3,7 @@
   "furnace": "sentrotech",
   "name": "Sentrotech",
   "by": "Sam (test)",
-  "at": 1790783484,
-  "note": "second publish",
-  "run": {
-    "v": 1,
-    "n": "DELETE ME - history check",
-    "t0": 1790783160,
-    "p": [
-      [
-        0,
-        20
-      ],
-      [
-        116,
-        600
-      ],
-      [
-        146,
-        600
-      ],
-      [
-        146,
-        20
-      ]
-    ],
-    "s": [
-      [
-        0,
-        116,
-        146,
-        600,
-        "test step"
-      ],
-      [
-        146,
-        146,
-        146,
-        20,
-        "quench"
-      ]
-    ],
-    "f": [
-      [
-        20,
-        "Lid closed",
-        "#2a78d6",
-        1
-      ]
-    ]
-  }
+  "at": 1790783487,
+  "note": "",
+  "run": null
 }
