@@ -2,8 +2,54 @@
   "v": 1,
   "furnace": "sentrotech",
   "name": "Sentrotech",
-  "by": "Sam",
-  "at": 1790525917,
-  "note": "",
-  "run": null
+  "by": "Sam (test)",
+  "at": 1790783479,
+  "note": "automated check, will be removed",
+  "run": {
+    "v": 1,
+    "n": "DELETE ME - history check",
+    "t0": 1790783160,
+    "p": [
+      [
+        0,
+        20
+      ],
+      [
+        116,
+        600
+      ],
+      [
+        146,
+        600
+      ],
+      [
+        146,
+        20
+      ]
+    ],
+    "s": [
+      [
+        0,
+        116,
+        146,
+        600,
+        "test step"
+      ],
+      [
+        146,
+        146,
+        146,
+        20,
+        "quench"
+      ]
+    ],
+    "f": [
+      [
+        20,
+        "Lid closed",
+        "#2a78d6",
+        1
+      ]
+    ]
+  }
 }
