@@ -5,43 +5,59 @@
       "id": "top-hat",
       "name": "Top Hat",
       "max_temp_c": 1600.0,
-      "nemo_url": ""
+      "nemo_url": "",
+      "cooling_holds": [
+        [
+          800.0,
+          625.7
+        ],
+        [
+          300.0,
+          140.6
+        ]
+      ]
     },
     {
       "id": "drop-bottom",
       "name": "Drop Bottom",
       "max_temp_c": 1750.0,
-      "nemo_url": ""
+      "nemo_url": "",
+      "cooling_holds": []
     },
     {
       "id": "nabertherm",
       "name": "Nabertherm",
       "max_temp_c": 1300.0,
-      "nemo_url": ""
+      "nemo_url": "",
+      "cooling_holds": []
     },
     {
       "id": "sentrotech",
       "name": "Sentrotech",
       "max_temp_c": 1250.0,
-      "nemo_url": ""
+      "nemo_url": "",
+      "cooling_holds": []
     },
     {
       "id": "rad-top-hat",
       "name": "Rad Top Hat",
       "max_temp_c": 1600.0,
-      "nemo_url": ""
+      "nemo_url": "",
+      "cooling_holds": []
     },
     {
       "id": "vertical-tube",
       "name": "Vertical tube furnace",
       "max_temp_c": 1500.0,
-      "nemo_url": ""
+      "nemo_url": "",
+      "cooling_holds": []
     },
     {
       "id": "horizontal-tube",
       "name": "Horizontal tube furnace",
       "max_temp_c": 1800.0,
-      "nemo_url": ""
+      "nemo_url": "",
+      "cooling_holds": []
     }
   ]
 }
