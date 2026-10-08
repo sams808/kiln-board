@@ -22,7 +22,16 @@
       "name": "Drop Bottom",
       "max_temp_c": 1750.0,
       "nemo_url": "",
-      "cooling_holds": []
+      "cooling_holds": [
+        [
+          1000.0,
+          117.6
+        ],
+        [
+          400.0,
+          45.6
+        ]
+      ]
     },
     {
       "id": "nabertherm",
@@ -43,7 +52,16 @@
       "name": "Rad Top Hat",
       "max_temp_c": 1600.0,
       "nemo_url": "",
-      "cooling_holds": []
+      "cooling_holds": [
+        [
+          800.0,
+          719.6
+        ],
+        [
+          300.0,
+          161.7
+        ]
+      ]
     },
     {
       "id": "vertical-tube",
