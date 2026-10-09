@@ -15,6 +15,12 @@
           300.0,
           140.6
         ]
+      ],
+      "max_ramp_up": [
+        [
+          1600.0,
+          300.0
+        ]
       ]
     },
     {
@@ -31,6 +37,12 @@
           400.0,
           45.6
         ]
+      ],
+      "max_ramp_up": [
+        [
+          1750.0,
+          300.0
+        ]
       ]
     },
     {
@@ -38,14 +50,30 @@
       "name": "Nabertherm",
       "max_temp_c": 1300.0,
       "nemo_url": "",
-      "cooling_holds": []
+      "cooling_holds": [],
+      "max_ramp_up": [
+        [
+          1000.0,
+          450.0
+        ],
+        [
+          1300.0,
+          300.0
+        ]
+      ]
     },
     {
       "id": "sentrotech",
       "name": "Sentrotech",
       "max_temp_c": 1250.0,
       "nemo_url": "",
-      "cooling_holds": []
+      "cooling_holds": [],
+      "max_ramp_up": [
+        [
+          1250.0,
+          300.0
+        ]
+      ]
     },
     {
       "id": "rad-top-hat",
@@ -61,6 +89,12 @@
           300.0,
           161.7
         ]
+      ],
+      "max_ramp_up": [
+        [
+          1600.0,
+          300.0
+        ]
       ]
     },
     {
@@ -68,14 +102,26 @@
       "name": "Vertical tube furnace",
       "max_temp_c": 1500.0,
       "nemo_url": "",
-      "cooling_holds": []
+      "cooling_holds": [],
+      "max_ramp_up": [
+        [
+          1500.0,
+          300.0
+        ]
+      ]
     },
     {
       "id": "horizontal-tube",
       "name": "Horizontal tube furnace",
       "max_temp_c": 1800.0,
       "nemo_url": "",
-      "cooling_holds": []
+      "cooling_holds": [],
+      "max_ramp_up": [
+        [
+          1800.0,
+          300.0
+        ]
+      ]
     }
   ]
 }
