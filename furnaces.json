@@ -21,7 +21,8 @@
           1600.0,
           300.0
         ]
-      ]
+      ],
+      "controller": "eurotherm-3504"
     },
     {
       "id": "drop-bottom",
@@ -43,7 +44,8 @@
           1750.0,
           300.0
         ]
-      ]
+      ],
+      "controller": "eurotherm-3504"
     },
     {
       "id": "nabertherm",
@@ -60,7 +62,8 @@
           1300.0,
           300.0
         ]
-      ]
+      ],
+      "controller": ""
     },
     {
       "id": "sentrotech",
@@ -73,7 +76,8 @@
           1250.0,
           300.0
         ]
-      ]
+      ],
+      "controller": ""
     },
     {
       "id": "rad-top-hat",
@@ -95,7 +99,8 @@
           1600.0,
           300.0
         ]
-      ]
+      ],
+      "controller": "eurotherm-3504"
     },
     {
       "id": "vertical-tube",
@@ -108,7 +113,8 @@
           1500.0,
           300.0
         ]
-      ]
+      ],
+      "controller": "eurotherm-3504"
     },
     {
       "id": "horizontal-tube",
@@ -121,7 +127,8 @@
           1800.0,
           300.0
         ]
-      ]
+      ],
+      "controller": "eurotherm-3504"
     }
   ]
 }
