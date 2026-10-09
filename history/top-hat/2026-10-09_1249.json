@@ -5,7 +5,7 @@
   "program": "Ampoule",
   "by": "Sam",
   "note": "",
-  "published": 1791585835,
+  "published": 1791588829,
   "started": 1791575340,
   "ends": 1791606814,
   "run": {
@@ -88,16 +88,19 @@
         206.2,
         236.2,
         1200,
-        ""
+        "",
+        "r"
       ],
       [
         236.2,
         524.58,
         524.58,
         100,
-        ""
+        "",
+        "n"
       ]
     ],
+    "c": "eurotherm-3504",
     "f": [
       [
         236.2,
@@ -106,6 +109,48 @@
         0,
         1200
       ]
+    ]
+  },
+  "definition": {
+    "format": "KILN furnace program",
+    "version": 1,
+    "name": "Ampoule",
+    "start_temp_c": 169.0,
+    "max_temp_c": null,
+    "furnace_id": "top-hat",
+    "segments": [
+      {
+        "label": "",
+        "target_c": 1200.0,
+        "ramp_mode": "rate",
+        "rate_c_per_h": 300.0,
+        "ramp_min": 206.2,
+        "dwell_min": 30.0
+      },
+      {
+        "label": "",
+        "target_c": 100.0,
+        "ramp_mode": "natural",
+        "rate_c_per_h": 228.86662849141712,
+        "ramp_min": 288.3775604815846,
+        "dwell_min": 0.0
+      }
+    ],
+    "features": [
+      {
+        "label": "Quench",
+        "anchor": "step",
+        "at_min": 315.0,
+        "step_index": 0,
+        "step_point": "end",
+        "offset_min": 0.0,
+        "shape": "star",
+        "color": "#2a78d6",
+        "place": "curve",
+        "size": 14.0,
+        "label_side": "below",
+        "show_temp": false
+      }
     ]
   }
 }
