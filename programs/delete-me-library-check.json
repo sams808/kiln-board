@@ -1,0 +1,42 @@
+{
+  "format": "KILN furnace program",
+  "version": 1,
+  "name": "DELETE ME - library check",
+  "start_temp_c": 20.0,
+  "max_temp_c": null,
+  "furnace_id": "top-hat",
+  "segments": [
+    {
+      "label": "soak",
+      "target_c": 1200.0,
+      "ramp_mode": "rate",
+      "rate_c_per_h": 600.0,
+      "ramp_min": 0.0,
+      "dwell_min": 60.0
+    },
+    {
+      "label": "cool",
+      "target_c": 200.0,
+      "ramp_mode": "natural",
+      "rate_c_per_h": 300.0,
+      "ramp_min": 0.0,
+      "dwell_min": 0.0
+    }
+  ],
+  "features": [
+    {
+      "label": "Lid closed",
+      "anchor": "time",
+      "at_min": 45.0,
+      "step_index": 0,
+      "step_point": "target",
+      "offset_min": 0.0,
+      "shape": "star",
+      "color": "#2a78d6",
+      "place": "curve",
+      "size": 10.0,
+      "label_side": "below",
+      "show_temp": false
+    }
+  ]
+}
