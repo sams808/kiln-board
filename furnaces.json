@@ -52,7 +52,16 @@
       "name": "Nabertherm",
       "max_temp_c": 1300.0,
       "nemo_url": "",
-      "cooling_holds": [],
+      "cooling_holds": [
+        [
+          900.0,
+          635.7
+        ],
+        [
+          400.0,
+          217.9
+        ]
+      ],
       "max_ramp_up": [
         [
           1000.0,
