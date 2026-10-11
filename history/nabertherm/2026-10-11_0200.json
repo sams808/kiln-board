@@ -1,0 +1,393 @@
+{
+  "v": 1,
+  "furnace": "nabertherm",
+  "name": "Nabertherm",
+  "program": "Na3Bi(PO4)2 multi-route, 6 crucibles (R1 x4, R2 x2)",
+  "by": "Sam",
+  "note": "",
+  "published": 1791679475,
+  "started": 1791709200,
+  "ends": 1791817929,
+  "run": {
+    "v": 1,
+    "n": "Na3Bi(PO4)2 multi-route, 6 crucibles (R1 x4, R2 x2)",
+    "t0": 1791709200,
+    "p": [
+      [
+        0,
+        20
+      ],
+      [
+        65,
+        150
+      ],
+      [
+        125,
+        150
+      ],
+      [
+        250,
+        400
+      ],
+      [
+        490,
+        400
+      ],
+      [
+        570,
+        800
+      ],
+      [
+        810,
+        800
+      ],
+      [
+        824,
+        870
+      ],
+      [
+        884,
+        870
+      ],
+      [
+        910,
+        1000
+      ],
+      [
+        920,
+        1050
+      ],
+      [
+        940,
+        1050
+      ],
+      [
+        959.64,
+        1010.71
+      ],
+      [
+        979.29,
+        971.43
+      ],
+      [
+        998.93,
+        932.14
+      ],
+      [
+        1018.57,
+        892.86
+      ],
+      [
+        1038.21,
+        853.57
+      ],
+      [
+        1057.86,
+        814.29
+      ],
+      [
+        1077.5,
+        775
+      ],
+      [
+        1097.14,
+        735.71
+      ],
+      [
+        1116.79,
+        696.43
+      ],
+      [
+        1136.43,
+        657.14
+      ],
+      [
+        1156.07,
+        617.86
+      ],
+      [
+        1175.71,
+        578.57
+      ],
+      [
+        1195.36,
+        539.29
+      ],
+      [
+        1215,
+        500
+      ],
+      [
+        1222.43,
+        465.86
+      ],
+      [
+        1230.54,
+        431.71
+      ],
+      [
+        1239.43,
+        397.57
+      ],
+      [
+        1249.26,
+        363.43
+      ],
+      [
+        1260.21,
+        329.29
+      ],
+      [
+        1272.54,
+        295.14
+      ],
+      [
+        1286.6,
+        261
+      ],
+      [
+        1302.92,
+        226.86
+      ],
+      [
+        1322.3,
+        192.71
+      ],
+      [
+        1346.1,
+        158.57
+      ],
+      [
+        1376.8,
+        124.43
+      ],
+      [
+        1419.94,
+        90.29
+      ],
+      [
+        1492.7,
+        56.14
+      ],
+      [
+        1812.15,
+        22
+      ],
+      [
+        1812.15,
+        20
+      ]
+    ],
+    "s": [
+      [
+        0,
+        65,
+        125,
+        150,
+        "dry",
+        "r"
+      ],
+      [
+        125,
+        250,
+        490,
+        400,
+        "decompose NH4H2PO4 / Na2CO3 (foaming, vent)",
+        "r"
+      ],
+      [
+        490,
+        570,
+        810,
+        800,
+        "react 800 C 4 h (published)",
+        "r"
+      ],
+      [
+        810,
+        824,
+        884,
+        870,
+        "beta field above 820 C",
+        "r"
+      ],
+      [
+        884,
+        920,
+        940,
+        1050,
+        "melt",
+        "r"
+      ],
+      [
+        940,
+        1215,
+        1215,
+        500,
+        "slow cool (SC)",
+        "r"
+      ],
+      [
+        1215,
+        1812.15,
+        1812.15,
+        20,
+        "",
+        "n"
+      ]
+    ],
+    "f": [
+      [
+        810,
+        "PULL C1 R1-Q800, quench",
+        "#2a78d6",
+        1,
+        800
+      ],
+      [
+        884,
+        "PULL C2 R1-Q870, quench",
+        "#1baf7a",
+        1,
+        870
+      ],
+      [
+        940,
+        "PULL C3 R1 + C5 R2, pour on Cu plate",
+        "#4a3aa7",
+        1,
+        1050
+      ],
+      [
+        1215,
+        "furnace off: C4 R1-SC + C6 R2-SC cool inside",
+        "#e34948",
+        1,
+        500
+      ]
+    ]
+  },
+  "definition": {
+    "format": "KILN furnace program",
+    "version": 1,
+    "name": "Na3Bi(PO4)2 multi-route, 6 crucibles (R1 x4, R2 x2)",
+    "start_temp_c": 20.0,
+    "furnace_id": "nabertherm",
+    "segments": [
+      {
+        "label": "dry",
+        "target_c": 150.0,
+        "ramp_mode": "rate",
+        "rate_c_per_h": 120.0,
+        "ramp_min": 65.0,
+        "dwell_min": 60.0
+      },
+      {
+        "label": "decompose NH4H2PO4 / Na2CO3 (foaming, vent)",
+        "target_c": 400.0,
+        "ramp_mode": "rate",
+        "rate_c_per_h": 120.0,
+        "ramp_min": 125.00000000000001,
+        "dwell_min": 240.0
+      },
+      {
+        "label": "react 800 C 4 h (published)",
+        "target_c": 800.0,
+        "ramp_mode": "rate",
+        "rate_c_per_h": 300.0,
+        "ramp_min": 80.0,
+        "dwell_min": 240.0
+      },
+      {
+        "label": "beta field above 820 C",
+        "target_c": 870.0,
+        "ramp_mode": "rate",
+        "rate_c_per_h": 300.0,
+        "ramp_min": 14.0,
+        "dwell_min": 60.0
+      },
+      {
+        "label": "melt",
+        "target_c": 1050.0,
+        "ramp_mode": "rate",
+        "rate_c_per_h": 300.0,
+        "ramp_min": 36.0,
+        "dwell_min": 20.0
+      },
+      {
+        "label": "slow cool (SC)",
+        "target_c": 500.0,
+        "ramp_mode": "rate",
+        "rate_c_per_h": 120.0,
+        "ramp_min": 275.0,
+        "dwell_min": 0.0
+      },
+      {
+        "label": "",
+        "target_c": 20.0,
+        "ramp_mode": "natural",
+        "rate_c_per_h": 48.228946279628275,
+        "ramp_min": 597.1517568105155,
+        "dwell_min": 0.0
+      }
+    ],
+    "features": [
+      {
+        "label": "PULL C1 R1-Q800, quench",
+        "anchor": "step",
+        "at_min": 0.0,
+        "step_index": 2,
+        "step_point": "end",
+        "offset_min": 0.0,
+        "shape": "triangle-down",
+        "color": "#2a78d6",
+        "place": "curve",
+        "size": 10.0,
+        "label_side": "above",
+        "show_temp": true
+      },
+      {
+        "label": "PULL C2 R1-Q870, quench",
+        "anchor": "step",
+        "at_min": 0.0,
+        "step_index": 3,
+        "step_point": "end",
+        "offset_min": 0.0,
+        "shape": "square",
+        "color": "#1baf7a",
+        "place": "curve",
+        "size": 10.0,
+        "label_side": "above",
+        "show_temp": true
+      },
+      {
+        "label": "PULL C3 R1 + C5 R2, pour on Cu plate",
+        "anchor": "step",
+        "at_min": 0.0,
+        "step_index": 4,
+        "step_point": "end",
+        "offset_min": 0.0,
+        "shape": "diamond",
+        "color": "#4a3aa7",
+        "place": "curve",
+        "size": 10.0,
+        "label_side": "above",
+        "show_temp": true
+      },
+      {
+        "label": "furnace off: C4 R1-SC + C6 R2-SC cool inside",
+        "anchor": "step",
+        "at_min": 0.0,
+        "step_index": 5,
+        "step_point": "end",
+        "offset_min": 0.0,
+        "shape": "circle",
+        "color": "#e34948",
+        "place": "curve",
+        "size": 10.0,
+        "label_side": "below",
+        "show_temp": true
+      }
+    ]
+  }
+}
