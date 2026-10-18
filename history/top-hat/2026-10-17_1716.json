@@ -1,0 +1,155 @@
+{
+  "v": 1,
+  "furnace": "top-hat",
+  "name": "Top Hat",
+  "program": "Ampoule",
+  "by": "Sam",
+  "note": "",
+  "published": 1792283606,
+  "started": 1792282560,
+  "ends": 1792313278,
+  "run": {
+    "v": 1,
+    "n": "Ampoule",
+    "t0": 1792282560,
+    "p": [
+      [
+        0,
+        232
+      ],
+      [
+        193.6,
+        1200
+      ],
+      [
+        223.6,
+        1200
+      ],
+      [
+        226.9,
+        1121.43
+      ],
+      [
+        230.81,
+        1042.86
+      ],
+      [
+        235.48,
+        964.29
+      ],
+      [
+        241.08,
+        885.71
+      ],
+      [
+        247.82,
+        807.14
+      ],
+      [
+        255.99,
+        728.57
+      ],
+      [
+        265.97,
+        650
+      ],
+      [
+        278.25,
+        571.43
+      ],
+      [
+        293.56,
+        492.86
+      ],
+      [
+        312.97,
+        414.29
+      ],
+      [
+        338.22,
+        335.71
+      ],
+      [
+        372.52,
+        257.14
+      ],
+      [
+        422.98,
+        178.57
+      ],
+      [
+        511.98,
+        100
+      ]
+    ],
+    "s": [
+      [
+        0,
+        193.6,
+        223.6,
+        1200,
+        "",
+        "r"
+      ],
+      [
+        223.6,
+        511.98,
+        511.98,
+        100,
+        "",
+        "n"
+      ]
+    ],
+    "c": "eurotherm-3504",
+    "f": [
+      [
+        223.6,
+        "Quench",
+        "#2a78d6",
+        0,
+        1200
+      ]
+    ]
+  },
+  "definition": {
+    "format": "KILN furnace program",
+    "version": 1,
+    "name": "Ampoule",
+    "start_temp_c": 232.0,
+    "furnace_id": "top-hat",
+    "segments": [
+      {
+        "label": "",
+        "target_c": 1200.0,
+        "ramp_mode": "rate",
+        "rate_c_per_h": 300.0,
+        "ramp_min": 193.6,
+        "dwell_min": 30.0
+      },
+      {
+        "label": "",
+        "target_c": 100.0,
+        "ramp_mode": "natural",
+        "rate_c_per_h": 228.86662849141712,
+        "ramp_min": 288.3775604815846,
+        "dwell_min": 0.0
+      }
+    ],
+    "features": [
+      {
+        "label": "Quench",
+        "anchor": "step",
+        "at_min": 315.0,
+        "step_index": 0,
+        "step_point": "end",
+        "offset_min": 0.0,
+        "shape": "star",
+        "color": "#2a78d6",
+        "place": "curve",
+        "size": 14.0,
+        "label_side": "below",
+        "show_temp": false
+      }
+    ]
+  }
+}
